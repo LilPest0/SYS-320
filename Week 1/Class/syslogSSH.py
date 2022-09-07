@@ -14,7 +14,7 @@ def ssh_fail(filename, searchTerms):
     # loop thru results
     for eachFound in is_found:
 
-        print(eachFound)
+        #print(eachFound)
         #split results
         sp_results = eachFound.split(" ")
 
