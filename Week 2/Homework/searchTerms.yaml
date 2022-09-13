@@ -1,0 +1,3 @@
+proxy:
+  QQ1: "QQ.*exe.*bytes sent.*bytes received.*"
+  QQ2: "QQ.*exe.*open through proxy.*"
