@@ -1,0 +1,21 @@
+---
+shell_attempts:
+  shell1: ".*cmd.exe.*"
+  shell2: ".*/bin/sh.*"
+  shell3: ".*c99.php.*"
+
+---
+sql_attempts:
+  php_admin: ".*/phpmyadmin.*"
+  mysql: ".*mysql.*"
+
+---
+directory_attacks:
+  password: ".*/etc/passwd.*"
+  backslash: ".*\\.\\..*"
+
+---
+content_management_attacks:
+  joomla: ".*joomla.*"
+  wordpress: ".*wordpress.*"
+  xmlrpc: ".*xmlrpc.*"
