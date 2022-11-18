@@ -6,7 +6,7 @@ foreach ($u in $drop_urls) {
 
     # Extract the filename
     $temp = $u.split("/")
-    $file_name = $temp[0]
+    $file_name = $temp[-1]
 
     if (Test-Path $file_name) {
         continue
